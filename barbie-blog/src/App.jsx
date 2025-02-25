@@ -52,7 +52,7 @@ function Navigation() {
 
 function Home() {
   return (
-    <section id="home">
+    <section id="home" className="page">
       <h1>Barbie Blog</h1>
       <p>Welcome to Barbie Blog</p>
     </section>
@@ -61,7 +61,7 @@ function Home() {
 
 function Inspo() {
   return (
-    <section id="inspo">
+    <section id="inspo" className="page">
       <h1>Inspo</h1>
       <p>What inspired this project?</p>
     </section>
@@ -70,7 +70,7 @@ function Inspo() {
 
 function Blog() {
   return (
-    <section id="blog">
+    <section id="blog" className="page">
       <h1>Barbie Blog</h1>
       <p>Click to read blog posts!</p>
       <button>Read</button>
@@ -80,7 +80,7 @@ function Blog() {
 
 function Subscribe() {
   return (
-    <section id="subscribe">
+    <section id="subscribe" className="page">
       <h1>Subscribe</h1>
       <p>Subscribe for email updates!</p>
       <div id="subscribe-form" className="form">
@@ -93,7 +93,7 @@ function Subscribe() {
 
 function Contact() {
   return (
-    <section id="contact">
+    <section id="contact" className="page">
       <h1>Contact</h1>
       <p>Contact form</p>
       <div id="contact-form" className="form">

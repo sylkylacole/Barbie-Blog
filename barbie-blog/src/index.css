@@ -1,0 +1,36 @@
+:root {
+    --hotpink: #fa426a;
+    --blonde: #ffe0b7;
+    --blue: #2ec0f9;
+    --lightblonde: #fef9ef;
+    --lightpink: #ffbec3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: var(--hotpink);
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    color: var(--lightblonde);
+}
+
+li:hover {
+    color: var(--blue);
+}
+
+body {
+    background-color: var(--blonde);
+    color: var(--hotpink);
+}
+
+.page {
+    height: 100vh;
+}

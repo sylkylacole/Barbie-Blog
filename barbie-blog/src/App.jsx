@@ -2,12 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import * as JS from './script.js'
 
 function App() {
   return (
     <>
       <div>
         <Landing></Landing>
+        <BackToTop></BackToTop>
       </div>
     </>
   )
@@ -31,19 +33,19 @@ function Navigation() {
     <nav>
       <ul>
         <li>
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#">Inspo</a>
+          <a href="#inspo">Inspo</a>
         </li>
         <li>
-          <a href="#">Blog</a>
+          <a href="#blog">Blog</a>
         </li>
         <li>
-          <a href="#">Subscribe</a>
+          <a href="#subscribe">Subscribe</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
@@ -103,6 +105,14 @@ function Contact() {
         <button>Send</button>
       </div>
     </section>
+  )
+}
+
+function BackToTop() {
+  return (
+    <div>
+      <button id="back-to-top">Back to top</button>
+    </div>
   )
 }
 

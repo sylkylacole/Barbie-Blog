@@ -14,23 +14,45 @@
 
 nav {
     background-color: var(--hotpink);
+    padding: 5%;
+    width: 100%;
+    margin-bottom: 10rem;
 }
 
 li {
     list-style-type: none;
-    display: inline;
-    color: var(--lightblonde);
+    display: inline-block;
+    margin-right: 5rem;
 }
 
-li:hover {
+li a {
+    color: var(--lightblonde);
+    text-decoration: none;
+}
+
+li a:hover {
     color: var(--blue);
 }
 
 body {
     background-color: var(--blonde);
     color: var(--hotpink);
+    scroll-behavior: smooth;
 }
 
 .page {
     height: 100vh;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--hotpink);
+    color: var(--lightblonde);
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    scroll-behavior: smooth;
 }

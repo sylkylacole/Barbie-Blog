@@ -16,8 +16,9 @@ nav {
     background-color: var(--hotpink);
     padding: 5%;
     width: 100%;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
     border-radius: 1rem;
+    position: fixed;
 }
 
 li {
@@ -58,4 +59,16 @@ body {
     padding: 10px;
     cursor: pointer;
     scroll-behavior: smooth;
+}
+
+#back-to-top:hover {
+    background-color: var(--blue);
+}
+
+.large-heading {
+    font-size: 10rem;
+}
+
+.small-heading {
+    font-size: 3rem;
 }

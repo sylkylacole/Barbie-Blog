@@ -55,8 +55,8 @@ function Navigation() {
 function Home() {
   return (
     <section id="home" className="page">
-      <h1>Barbie Blog</h1>
-      <p>Welcome to Barbie Blog</p>
+      <h1 className="large-heading">Barbie Blog</h1>
+      <h3 className="small-heading">A Barbie Girl's Movie Review Home</h3>
     </section>
   )
 }

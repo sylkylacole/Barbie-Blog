@@ -6,9 +6,15 @@ This will update every time I finish a Barbie movie or series, and will contain 
 
 # Steps to Completion
 ☑️ Create the site map
+
 ☑️ Create the basic layout
+
 🟨 Wireframe
+
 🟨 Fill in styles
+
 🟨 Add any libraries/frameworks
+
 🟨 Review
+
 🟨 Deploy

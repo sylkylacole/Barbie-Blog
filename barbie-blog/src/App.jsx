@@ -4,14 +4,25 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
-        <Navigation></Navigation>
+        <Landing></Landing>
       </div>
     </>
+  )
+}
+
+function Landing() {
+  return (
+    <div>
+      <Navigation></Navigation>
+      <Home></Home>
+      <Inspo></Inspo>
+      <Blog></Blog>
+      <Subscribe></Subscribe>
+      <Contact></Contact>  
+    </div>
   )
 }
 
@@ -23,13 +34,75 @@ function Navigation() {
           <a href="#">Home</a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="#">Inspo</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="#">Subscribe</a>
         </li>
         <li>
           <a href="#">Contact</a>
         </li>
       </ul>
     </nav>
+  )
+}
+
+function Home() {
+  return (
+    <section id="home">
+      <h1>Barbie Blog</h1>
+      <p>Welcome to Barbie Blog</p>
+    </section>
+  )
+}
+
+function Inspo() {
+  return (
+    <section id="inspo">
+      <h1>Inspo</h1>
+      <p>What inspired this project?</p>
+    </section>
+  )
+}
+
+function Blog() {
+  return (
+    <section id="blog">
+      <h1>Barbie Blog</h1>
+      <p>Click to read blog posts!</p>
+      <button>Read</button>
+    </section>
+  )
+}
+
+function Subscribe() {
+  return (
+    <section id="subscribe">
+      <h1>Subscribe</h1>
+      <p>Subscribe for email updates!</p>
+      <div id="subscribe-form" className="form">
+        <input type="email" placeholder="Email"></input>
+        <button>Subscribe</button>
+      </div>
+    </section>
+  )
+}
+
+function Contact() {
+  return (
+    <section id="contact">
+      <h1>Contact</h1>
+      <p>Contact form</p>
+      <div id="contact-form" className="form">
+        <input type="text" placeholder="Name"></input>
+        <input type="email" placeholder="Email"></input>
+        <textarea placeholder="Message"></textarea>
+        <button>Send</button>
+      </div>
+    </section>
   )
 }
 

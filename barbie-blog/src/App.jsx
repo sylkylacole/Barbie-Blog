@@ -2,14 +2,12 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import './script'
 
 function App() {
   return (
     <>
       <div>
         <Landing></Landing>
-        <BackToTop></BackToTop>
       </div>
     </>
   )
@@ -105,14 +103,6 @@ function Contact() {
         <button>Send</button>
       </div>
     </section>
-  )
-}
-
-function BackToTop() {
-  return (
-    <div>
-      <button id="back-to-top">Back to top</button>
-    </div>
   )
 }
 

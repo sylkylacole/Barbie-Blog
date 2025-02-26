@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import placeholderImage from './assets/placeholder.jpg'
 
 function App() {
   return (
@@ -53,8 +54,8 @@ function Navigation() {
 function Home() {
   return (
     <section id="home" className="page">
-      <h1 className="large-heading">Barbie Blog</h1>
-      <h3 className="small-heading">A Barbie Girl's Movie Review Home</h3>
+      <h1 id="home-heading">Barbie Blog</h1>
+      <h3 id="home-subheading">Barbie Movie Reviews</h3>
     </section>
   )
 }
@@ -62,8 +63,12 @@ function Home() {
 function Inspo() {
   return (
     <section id="inspo" className="page">
-      <h1>Inspo</h1>
-      <p>What inspired this project?</p>
+      <div className="left">
+        <h1 className="large-heading">Inspo</h1>
+        <h3 className="description-header">What inspired this project?</h3>
+        <p className="description">As a passionate media enthusiast, I am always deep diving into content I love! Barbie is one of the brands that have been there with me since I was a kid and as I've gotten older, I've made my way through a lot of Barbie movies! The goal of this blog is to simply share my experience with watching each Barbie movie/show and going into detail about how much I love (or don't love) the characters, scenes, and setting!</p>
+      </div>
+      <img className="placeholder-image" alt="placeholder image" src={placeholderImage}></img>
     </section>
   )
 }

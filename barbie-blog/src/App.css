@@ -87,10 +87,6 @@ li a:hover {
   text-align: center;
 }
 
-#inspo {
-  background-color: green;
-}
-
 .description {
   font-size: 16pt;
   width: 50ch;
@@ -115,4 +111,19 @@ li a:hover {
   float: left;
   position: relative;
   top: 15%;
+}
+
+.button {
+  background-color: var(--hotpink);
+  color: var(--lightblonde);
+  border: none;
+  border-radius: 100%;
+  width: 10rem;
+  height: 3rem;
+  margin-top: 2rem;
+}
+
+.button:hover {
+  background-color: var(--blue);
+  cursor: pointer;
 }

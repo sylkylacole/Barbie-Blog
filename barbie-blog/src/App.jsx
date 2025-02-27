@@ -76,9 +76,14 @@ function Inspo() {
 function Blog() {
   return (
     <section id="blog" className="page">
-      <h1>Barbie Blog</h1>
-      <p>Click to read blog posts!</p>
-      <button>Read</button>
+      <div className="left">
+        <h1 className="large-heading">Blog</h1>
+        <h3 className="description-header">Ready to read?!</h3>
+        <p className="description">The blog page is dedicated entirely to different movies, each with their own respective blog post that goes into detail about said movie. To read more about this blog, read the "00: Background" entry.</p>
+        <button className="button">Read</button>
+      </div>
+      <img className="placeholder-image" alt="placeholder image" src
+      ={placeholderImage}></img>
     </section>
   )
 }

@@ -127,3 +127,43 @@ li a:hover {
   background-color: var(--blue);
   cursor: pointer;
 }
+
+input {
+  border-radius: 1rem;
+  border: none;
+}
+
+textarea {
+  border-radius: 1rem;
+  border: none;
+  width: 20rem;
+  height: 2rem;
+  margin: 1rem 0;
+  margin-right: 2rem;
+  border-radius: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type="email"] {
+  width: 20rem;
+  height: 2rem;
+  margin: 1rem 0;
+  margin-right: 2rem;
+  border-radius: 1rem;
+}
+
+input[type="text"] {
+  width: 20rem;
+  height: 2rem;
+  margin: 1rem 0;
+  margin-right: 2rem;
+  border-radius: 1rem;
+}
+
+#contact-form {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  inline-size: 25%;
+  margin-top: 3%
+}

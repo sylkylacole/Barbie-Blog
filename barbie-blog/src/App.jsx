@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import placeholderImage from './assets/placeholder.jpg'
 
@@ -91,12 +89,16 @@ function Blog() {
 function Subscribe() {
   return (
     <section id="subscribe" className="page">
-      <h1>Subscribe</h1>
-      <p>Subscribe for email updates!</p>
-      <div id="subscribe-form" className="form">
-        <input type="email" placeholder="Email"></input>
-        <button>Subscribe</button>
+      <div className="left">
+        <h1 className="large-heading">Subscribe</h1>
+        <h3 className="description-header">Subscribe for email updates!</h3>
+        <div id="subscribe-form" className="form">
+          <input type="email" placeholder="Email"></input>
+          <input type="submit" value="Subscribe" className="button"></input>
+        </div>
       </div>
+      <img className="placeholder-image" alt="placeholder image" src
+      ={placeholderImage}></img>
     </section>
   )
 }
@@ -104,14 +106,18 @@ function Subscribe() {
 function Contact() {
   return (
     <section id="contact" className="page">
-      <h1>Contact</h1>
-      <p>Contact form</p>
-      <div id="contact-form" className="form">
-        <input type="text" placeholder="Name"></input>
-        <input type="email" placeholder="Email"></input>
-        <textarea placeholder="Message"></textarea>
-        <button>Send</button>
+      <div className="left">
+        <h1 className="large-heading">Contact</h1>
+        <h3 className="description-header">Contact form</h3>
+        <div id="contact-form" className="form">
+          <input type="text" placeholder="Name"></input>
+          <input type="email" placeholder="Email" required></input>
+          <textarea placeholder="Message"></textarea>
+          <input type="submit" className="button" value="Send"></input>
+        </div>
       </div>
+      <img className="placeholder-image" alt="placeholder image" src
+      ={placeholderImage}></img>
     </section>
   )
 }

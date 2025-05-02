@@ -167,3 +167,7 @@ input[type="text"] {
   inline-size: 25%;
   margin-top: 3%
 }
+
+#contact {
+  margin-bottom: 0;
+}

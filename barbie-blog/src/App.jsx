@@ -116,8 +116,8 @@ function Contact() {
           <input type="submit" className="button" value="Send"></input>
         </div>
       </div>
-      <img className="placeholder-image" alt="placeholder image" src
-      ={placeholderImage}></img>
+      {/* <img className="placeholder-image" alt="placeholder image" src
+      ={placeholderImage}></img> */}
     </section>
   )
 }
